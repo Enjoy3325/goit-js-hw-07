@@ -26,28 +26,3 @@ galleryUl.innerHTML = stringGallery;
 var lightbox = new SimpleLightbox('.gallery a', {
   captionDelay: 250,
 });
-
-// // Добавляю слушателей по клику, чтобы открывалась в модальном окне, пишу функцию, с помощью библиотеки с помощью cdn
-// galleryDiv.addEventListener('click', onGalleryClick);
-
-// // Відкриття модалки
-// function onGalleryClick(e) {
-//   // Запрещение от браузера действие по умолчанию
-//   e.preventDefault();
-//   if (e.target.nodeName !== 'IMG') {
-//     return;
-//   }
-//   // код из библиотеки, адрес поставить динамически
-//   const instance = basicLightbox.create(`
-//     <img src=${e.target.getAttribute('data-source')} width="800" height="600"
-// >
-// `);
-
-//   instance.show();
-//   console.log(e.target);
-//   galleryDiv.addEventListener('keydown', e => {
-//     if (e.key === 'Escape') {
-//       instance.close();
-//     }
-//   });
-// }
