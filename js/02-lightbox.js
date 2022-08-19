@@ -23,6 +23,6 @@ const stringGallery = galleryImage.join('');
 galleryUl.innerHTML = stringGallery;
 // console.log(gallaryImage.join(''));
 
-var lightbox = new SimpleLightbox('.gallery a', {
+let lightbox = new SimpleLightbox('.gallery a', {
   captionDelay: 250,
 });
