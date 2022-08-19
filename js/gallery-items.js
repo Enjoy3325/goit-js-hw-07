@@ -47,10 +47,10 @@ export const galleryItems = [
   },
   {
     preview:
-      'https://blog.eldorado.ru/storage/publication/mLgFUvUZkxQ2IMTh1j71HaflmxP4WRa6xmTHH3YX.jpeg',
+      'https://cdn.meteoprog.net/thumbnails/newsweather/cropr_784x441/big_605536.jpg?1650960960',
     original:
-      'https://blog.eldorado.ru/storage/publication/mLgFUvUZkxQ2IMTh1j71HaflmxP4WRa6xmTHH3YX.jpeg',
-    description: 'Diablo',
+      'https://cdn.meteoprog.net/thumbnails/newsweather/cropr_784x441/big_605536.jpg?1650960960',
+    description: 'Imperial penguins',
   },
   {
     preview: 'https://cdn.exputer.com/wp-content/uploads/2022/06/Diablo-Immortal-Vs-Diablo-4-2.jpg',
@@ -62,6 +62,21 @@ export const galleryItems = [
     preview: 'https://cdn.wccftech.com/wp-content/uploads/2018/11/Diablo-4-announcement.png',
     original: 'https://cdn.wccftech.com/wp-content/uploads/2018/11/Diablo-4-announcement.png',
     description: 'Gameplay Diablo-4 ',
+  },
+  {
+    preview: 'https://media-cdn.tripadvisor.com/media/photo-s/1a/9f/57/49/pool.jpg',
+    original: 'https://media-cdn.tripadvisor.com/media/photo-s/1a/9f/57/49/pool.jpg',
+    description: 'Canada Walnut Beach Resort',
+  },
+  {
+    preview: 'https://img.hotels24.ua/photos/ria/news_content/111/11197/1119721/1119721.jpg',
+    original: 'https://img.hotels24.ua/photos/ria/news_content/111/11197/1119721/1119721.jpg',
+    description: 'Croatia beach resort Zadar',
+  },
+  {
+    preview: 'https://cdn.coraltravel.ua/content/dominikana/picture6.jpg',
+    original: 'https://cdn.coraltravel.ua/content/dominikana/picture6.jpg',
+    description: 'Beach resort La Romana Dominican Republic',
   },
 ];
 //
